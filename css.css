@@ -6,7 +6,9 @@ body{
 .container{
     background-color: white;
     display: grid;
-    width: 1372px;
+    width: 1580px;
+     /* 1372px */
+    
     /* 1520px */
     /* width: 1491; */
     height: 100vh;
@@ -47,8 +49,9 @@ display: flex;
     color: white;
     width: 492px;
     position: relative;
-    left: 840px;
+    left: 985px;
     /* 985px */
+    /* 840 */
     top: -18px;
     margin: 0;
     font-family: system-ui; 
@@ -76,7 +79,7 @@ ul li{
     text-align: center;
     position: relative;
     /* left: 690px; */
-    left: 635px;
+    left: 680px;
     top: 100px;
     font-size: xx-large;
     font-weight: bolder;
@@ -86,7 +89,7 @@ ul li{
     width: fit-content;
         position: relative;
         /* left: 520px; */
-        left: 440px;
+        left: 485px;
         top: 85px;
         font-family: system-ui;
         font-size: larger;
@@ -96,7 +99,7 @@ ul li{
 color: white;
     position: relative;
     /* left: 685px; */
-    left: 630px;
+    left: 680px;
     top: 70px;
 }
 .heading a{
