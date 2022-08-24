@@ -1,0 +1,127 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    background-color: white;
+    display: grid;
+    width: 1372px;
+    /* 1520px */
+    /* width: 1491; */
+    height: 100vh;
+    grid-template-columns: repeat(10,auto);
+    grid-auto-rows: 30px 1590px ; 
+    /* 488 */
+    /* 1500 */
+    gap: px;
+    grid-template-areas: 
+    "MTS MTS MTS MTS MTS MTS MTS MTS MTS  MTS"
+    "section section section section section section section section section section "
+    "footer footer footer footer footer footer footer footer footer footer";
+}
+/* headr */
+.MTS{
+    grid-area: MTS;
+    background-color: blue;
+    
+}
+.MTS span{
+color: white;
+    position: relative;
+    top: 6px;
+    left: 20px;
+    font-family: system-ui;
+}
+.nav{
+    /* grid-area: nav; */
+    position: relative;
+    top: -27px;
+    /* left: 170px; */
+    color: white;
+
+}
+ul{
+display: flex;
+    list-style-type: none;
+    color: white;
+    width: 492px;
+    position: relative;
+    left: 840px;
+    /* 985px */
+    top: -18px;
+    margin: 0;
+    font-family: system-ui; 
+    cursor: pointer;
+}
+ul li{
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.container .MTS a{
+    text-decoration: none;
+    color: white;
+}
+/* end headr */
+/* section */
+.content{
+    grid-area: section;
+    background-color: blue;
+}
+.content span{
+    color: white;
+    width: fit-content;
+    font-family: system-ui;
+    text-align: center;
+    position: relative;
+    /* left: 690px; */
+    left: 635px;
+    top: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.content p{
+    color: white;
+    width: fit-content;
+        position: relative;
+        /* left: 520px; */
+        left: 440px;
+        top: 85px;
+        font-family: system-ui;
+        font-size: larger;
+        font-weight: 700;
+}
+.content .heading{
+color: white;
+    position: relative;
+    /* left: 685px; */
+    left: 630px;
+    top: 70px;
+}
+.heading a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+/* end section */
+                                                                                /* .sidebar{
+                                                                                    grid-area: aside;
+                                                                                    background-color: royalblue;
+                                                                                } */
+.footer{
+    grid-area: footer;
+    background-color: black;
+}
+.footer .text{
+    font-family: system-ui;
+        position: relative;
+        left: 35%;
+        top: 22%;
+        width: fit-content;
+        font-weight: bolder;
+        font-size: 12px;
+        color: #fff;
+}
